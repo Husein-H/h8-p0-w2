@@ -3,30 +3,30 @@ set a with 2
 set rumus with m * a
 set hasil with rumus
 
-console.log(hasil)
+display hasil
 
 2. set tahun with 0
    if(tahun % 4 == 0 && tahun % 100 !=0)
-	do console.log("ini tahun kabisat")
-   edn if
+	do display "ini tahun kabisat"
+   end if
           if(tahun % 4 == 0 && tahun % 100 == 0 && tahun % 400 == 0)
-	    do console.log("ini tahun  kabisat")
+	    do display "ini tahun  kabisat"
 	  end if	
    else
-	do console.log("ini bukan tahun kabisat")
+	do display "ini bukan tahun kabisat"
 
 3.set baju with 0
   While (baju <= 20){
-	do console.log(baju)
+	dsiplay baju
 	baju++
   }
 4. set kuku with 0
    while (kuku <=40){
 	kuku++
    if(kuku panjang){
-	do console.log("kamu akan dihukum")
+	do display "kamu akan dihukum"
    else{
-	do console.log("kamu akan mendapatkan permen")
+	do display "kamu akan mendapatkan permen"
   }
  }
 }
